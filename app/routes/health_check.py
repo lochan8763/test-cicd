@@ -11,4 +11,4 @@ def health_check():
     Returns:
         Response: JSON response with application status and HTTP 200 status code.
     """
-    return jsonify({"message": "Application is running123"}), 200
+    return jsonify({"message": "Application is not running"}), 200
